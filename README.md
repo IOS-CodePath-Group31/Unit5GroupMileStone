@@ -20,11 +20,11 @@ Friendie is a social networking application for your friends or family. You can 
 [Evaluation of your app across the following attributes]
 
 - **Category:** Social
-- **Mobile:** Mobile will be used to gain immediate access to the list of friends and list of places visited. It is also essential for getting a description of past visted places.  
-- **Story:** Allows friends of a user view visited locations. A user can sign up and add friends, once 2 users become friends, they can create a group on the app and then collaborate with their friends. If users plan an outing, they can add the visited location to the app and have access to a list of all the placeas they have visited together. 
+- **Mobile:** Mobile will be used to gain immediate access to the list of friends and list of places visited. It is also essential for getting a description of past visted places.
+- **Story:** Allows friends of a user view visited locations. A user can sign up and add friends, once 2 users become friends, they can create a group on the app and then collaborate with their friends. If users plan an outing, they can add the visited location to the app and have access to a list of all the placeas they have visited together.
 - **Market:** Youths, Students, Friends
-- **Habit:** Friends will use this when they want to hangout as a group and need inspiration on where to go. They can view their other friends past hangout spots. 
-- **Scope:** 
+- **Habit:** Friends will use this when they want to hangout as a group and need inspiration on where to go. They can view their other friends past hangout spots.
+- **Scope:**
 
 ## Product Spec
 
@@ -101,8 +101,22 @@ A picture of hand sketched wireframe
 ### Models
 
 - Users
+  - Full Name
+  - Username
+  - Password
+  - coverImage
+  - profileImage
 - Groups
+  - Name
+  - GroupImage
+  - Creater: user
+  - GroupSize
+  - Members: [users]
+  - Posts: [posts]
 - Posts
+  - name
+  - Image
+  - location
 
 ### Networking
 
