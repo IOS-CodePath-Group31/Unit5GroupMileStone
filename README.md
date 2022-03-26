@@ -9,7 +9,7 @@
 
 ## Overview
 
-We are a group of 5 CS students who will be working together to build the next social networking app dedicated mainly to bring friends closer and so they can share memorable times together.
+We are a group of 5 CS students who will be working together to build the next social networking app dedicated mainly to bring friends and families closer so they can share memorable times together.
 
 ### Description
 
@@ -45,34 +45,50 @@ Friendie is a social networking application for your friends or family. You can 
 
 ### 2. Screen Archetypes
 
-- [list first screen here]
-  - [list associated required story here]
-  - ...
-- [list second screen here]
-  - [list associated required story here]
-  - ...
+- Styled launch screen with logo.
+- Landing screen
+  - Styled signup and login screens.
+  - Users can create an account, and login.
+- Home screen
+  - Users can view all the groups they are in.
+- Detailed Group Screen
+  - Users can click on a group and look at the all members of that group.
+    Users can click on a group and view all the things shared in that group.
+- Profile screen
+  - Users can view and edit their profile info.
+- Settings screen.
+  - Users can logout.
+  - They can go to their profile screen from this screen.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-- [fill out your first tab]
-- [fill out your second tab]
-- [fill out your third tab]
+- Home
+- Profile
+- Groups
 
 **Flow Navigation** (Screen to Screen)
 
-- [list first screen here]
-  - [list screen navigation here]
+- Landing screen(Sign up or login)
+  - Navigates to Home screen upon login success.
   - ...
-- [list second screen here]
-  - [list screen navigation here]
-  - ...
+- Home screen
+  - Groups screen
+  - User profile screen
+- User profile screen
+  - Edit user profile screen
+- Groups screen
+  - Group Detailed view screen
+- Group detailed view screen
+  - .Edit group screen
+  - Add post to a group screen
+  - Add users to a group screen.
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+A picture of hand sketched wireframe
+<img src="./wireframe.jpeg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -84,10 +100,12 @@ Friendie is a social networking application for your friends or family. You can 
 
 ### Models
 
-[Add table of models]
+- Users
+- Groups
+- Posts
 
 ### Networking
 
-- [Add list of network requests by screen ]
+- The signup and login screen will make a network call to Parse to authenticate the user.
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
