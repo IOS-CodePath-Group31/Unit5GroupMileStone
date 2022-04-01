@@ -119,7 +119,20 @@ A picture of hand sketched wireframe
   - location
 
 ### Networking
-
+- Landing screen
+- network call using Parse to log in 
+- network call using Parse to register a new account 
+- Home Screen
+- (Read/GET) Query all group images
+- (Read/GET) Query all group names
+- Profile Screen
+- (Read/GET) Query logged in user object
+- Groups Visual Screen
+- (Read/GET) Query all group images, names, etc
+- Groups detail view screen
+- (Read/GET) Query all members of that group
+- (Read/GET) Query the group name
+- (Read/GET) Query posts belonging to that group
 - The signup and login screen will make a network call to Parse to authenticate the user.
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
