@@ -133,6 +133,3 @@ A picture of hand sketched wireframe
 - (Read/GET) Query all members of that group
 - (Read/GET) Query the group name
 - (Read/GET) Query posts belonging to that group
-- The signup and login screen will make a network call to Parse to authenticate the user.
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
