@@ -34,6 +34,8 @@ Friendie is a social networking application for your friends or family. You can 
 
 - Users can create an account, login, and logout.
 - Users can view and edit their profile info.
+- User can Create groups.
+- Users can add people to groups.
 - Users can view all the groups they are in.
 - Users can click on a group and look at the all members of that group.
 - Users can click on a group and view all the things shared in that group.
