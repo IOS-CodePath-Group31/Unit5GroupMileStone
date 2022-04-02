@@ -13,7 +13,7 @@ We are a group of 5 CS students who will be working together to build the next s
 
 ### Description
 
-Friendie is a social networking application for your friends or family. You can organise meetings and events with your group. The app will display the places you visited with your friends in a map. You can click on a place on the map and get more details about that place you visited.
+Friendie is a social networking application for your friends or family. You can add friends/family with active accounts to your group. You can organise meetings and events with your group. Anyone who is in the group can post to the group and view the group's content.
 
 ### App Evaluation
 
@@ -88,7 +88,8 @@ Friendie is a social networking application for your friends or family. You can 
 ## Wireframes
 
 A picture of hand sketched wireframe
-<img src="./wireframe.jpeg" width=600>
+<img src="./wireframe1.jpeg" width=600>
+<img src="./wireframe2.jpeg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
@@ -109,19 +110,20 @@ A picture of hand sketched wireframe
 - Groups
   - Name
   - GroupImage
-  - Creater: user
+  - Author: user
   - GroupSize
   - Members: [users]
   - Posts: [posts]
 - Posts
-  - name
+  - Description
   - Image
-  - location
+  - Location
 
 ### Networking
+
 - Landing screen
-- network call using Parse to log in 
-- network call using Parse to register a new account 
+- network call using Parse to log in
+- network call using Parse to register a new account
 - Home Screen
 - (Read/GET) Query all group images
 - (Read/GET) Query all group names
