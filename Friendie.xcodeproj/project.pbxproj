@@ -16,6 +16,7 @@
 		144E125F27FE843A00A0F82D /* FriendieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E125E27FE843A00A0F82D /* FriendieTests.swift */; };
 		144E126927FE843A00A0F82D /* FriendieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E126827FE843A00A0F82D /* FriendieUITests.swift */; };
 		144E126B27FE843A00A0F82D /* FriendieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E126A27FE843A00A0F82D /* FriendieUITestsLaunchTests.swift */; };
+		64F446452801018500FD3131 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F446442801018500FD3131 /* ExampleViewController.swift */; };
 		65804DE1070DBD3B2E31F06E /* Pods_FriendieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */; };
 		95F2EA5BAE87FCFAE9E04454 /* Pods_Friendie_FriendieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */; };
 		E738DA43C7AAF1F7D733BFB1 /* Pods_Friendie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */; };
@@ -56,6 +57,7 @@
 		330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.debug.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.release.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.release.xcconfig"; sourceTree = "<group>"; };
+		64F446442801018500FD3131 /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7B831EAA6A26A1830594722 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
 		DCA5EED3D4B91BAA4D92C1DA /* Pods-Friendie-FriendieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.release.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				144E124727FE843900A0F82D /* AppDelegate.swift */,
+				64F446442801018500FD3131 /* ExampleViewController.swift */,
 				144E124927FE843900A0F82D /* SceneDelegate.swift */,
 				144E124B27FE843900A0F82D /* ViewController.swift */,
 				144E124D27FE843900A0F82D /* Main.storyboard */,
@@ -154,7 +157,6 @@
 				40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */,
 				46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -408,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144E124C27FE843900A0F82D /* ViewController.swift in Sources */,
+				64F446452801018500FD3131 /* ExampleViewController.swift in Sources */,
 				144E124827FE843900A0F82D /* AppDelegate.swift in Sources */,
 				144E124A27FE843900A0F82D /* SceneDelegate.swift in Sources */,
 			);
