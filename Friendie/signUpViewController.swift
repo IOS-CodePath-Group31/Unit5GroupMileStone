@@ -28,10 +28,14 @@ class signUpViewController: UIViewController {
                 print("Error: \(error?.localizedDescription)")
             }
         }
-        
-        
-        
     }
+   
+    
+    @IBAction func alternateLogin(_ sender: Any) {
+        self.performSegue(withIdentifier: "signUpSegue", sender: nil)
+    }
+    
+    
     
     
     override func viewDidLoad() {
