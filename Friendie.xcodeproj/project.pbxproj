@@ -18,6 +18,8 @@
 		144E127827FE982A00A0F82D /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127727FE982A00A0F82D /* loginViewController.swift */; };
 		144E127A27FE985000A0F82D /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127927FE985000A0F82D /* feedViewController.swift */; };
 		144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127B27FE9A5700A0F82D /* signUpViewController.swift */; };
+		643786B52801FD1100028409 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643786B42801FD1000028409 /* GroupTableViewCell.swift */; };
+		643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643786B6280205A700028409 /* CreateGroupViewController.swift */; };
 		65804DE1070DBD3B2E31F06E /* Pods_FriendieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */; };
 		95F2EA5BAE87FCFAE9E04454 /* Pods_Friendie_FriendieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */; };
 		E738DA43C7AAF1F7D733BFB1 /* Pods_Friendie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */; };
@@ -60,6 +62,8 @@
 		330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.debug.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.release.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.release.xcconfig"; sourceTree = "<group>"; };
+		643786B42801FD1000028409 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
+		643786B6280205A700028409 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
 		89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7B831EAA6A26A1830594722 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
 		DCA5EED3D4B91BAA4D92C1DA /* Pods-Friendie-FriendieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.release.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 				144E127727FE982A00A0F82D /* loginViewController.swift */,
 				144E127927FE985000A0F82D /* feedViewController.swift */,
 				144E127B27FE9A5700A0F82D /* signUpViewController.swift */,
+				643786B42801FD1000028409 /* GroupTableViewCell.swift */,
+				643786B6280205A700028409 /* CreateGroupViewController.swift */,
 			);
 			path = Friendie;
 			sourceTree = "<group>";
@@ -413,8 +419,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */,
+				643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */,
 				144E124827FE843900A0F82D /* AppDelegate.swift in Sources */,
 				144E124A27FE843900A0F82D /* SceneDelegate.swift in Sources */,
+				643786B52801FD1100028409 /* GroupTableViewCell.swift in Sources */,
 				144E127A27FE985000A0F82D /* feedViewController.swift in Sources */,
 				144E127827FE982A00A0F82D /* loginViewController.swift in Sources */,
 			);
@@ -602,6 +610,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -631,6 +640,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
