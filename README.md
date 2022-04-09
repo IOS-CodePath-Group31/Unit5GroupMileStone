@@ -32,18 +32,22 @@ Friendie is a social networking application for your friends or family. You can 
 
 **Required Must-have Stories**
 
-- Users can create an account, login, and logout.
-- Users can view and edit their profile info.
-- User can Create groups.
-- Users can add people to groups.
-- Users can view all the groups they are in.
-- Users can click on a group and look at the all members of that group.
-- Users can click on a group and view all the things shared in that group.
+[x] Users can create an account and login. 
+[] User can logout.
+[] Users can view and edit their profile info.
+[] User can Create groups.
+[] Users can add people to groups.
+[] Users can view all the groups they are in.
+[] Users can click on a group and look at the all members of that group.
+[] Users can click on a group and view all the things shared in that group.
 
 **Optional Nice-to-have Stories**
 
-- Users can view places they visited in a map.
-- Click on a place on the map and get detailed view of that place.
+[] Users can view places they visited in a map.
+[] Click on a place on the map and get detailed view of that place.
+
+<img src="http://g.recordit.co/f9rraiIFtT.gif" width=250><br>
+<img src="http://g.recordit.co/XWRx3Ol1O7.gif" width=250><br>
 
 ### 2. Screen Archetypes
 
