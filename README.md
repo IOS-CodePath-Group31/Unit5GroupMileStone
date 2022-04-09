@@ -43,8 +43,8 @@ Friendie is a social networking application for your friends or family. You can 
 
 **Optional Nice-to-have Stories**
 
-[] Users can view places they visited in a map.
-[] Click on a place on the map and get detailed view of that place.
+- [ ] Users can view places they visited in a map.
+- [ ] Click on a place on the map and get detailed view of that place.
 
 <img src="http://g.recordit.co/f9rraiIFtT.gif" width=250><br>
 <img src="http://g.recordit.co/XWRx3Ol1O7.gif" width=250><br>
