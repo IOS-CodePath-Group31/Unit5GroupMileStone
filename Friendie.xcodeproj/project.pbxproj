@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		144E124827FE843900A0F82D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E124727FE843900A0F82D /* AppDelegate.swift */; };
+		144E124A27FE843900A0F82D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E124927FE843900A0F82D /* SceneDelegate.swift */; };
+		144E124F27FE843900A0F82D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144E124D27FE843900A0F82D /* Main.storyboard */; };
+		144E125127FE843A00A0F82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144E125027FE843A00A0F82D /* Assets.xcassets */; };
+		144E125427FE843A00A0F82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 144E125227FE843A00A0F82D /* LaunchScreen.storyboard */; };
+		144E125F27FE843A00A0F82D /* FriendieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E125E27FE843A00A0F82D /* FriendieTests.swift */; };
+		144E126927FE843A00A0F82D /* FriendieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E126827FE843A00A0F82D /* FriendieUITests.swift */; };
+		144E126B27FE843A00A0F82D /* FriendieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E126A27FE843A00A0F82D /* FriendieUITestsLaunchTests.swift */; };
+		144E127827FE982A00A0F82D /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127727FE982A00A0F82D /* loginViewController.swift */; };
+		144E127A27FE985000A0F82D /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127927FE985000A0F82D /* feedViewController.swift */; };
+		144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127B27FE9A5700A0F82D /* signUpViewController.swift */; };
+		65804DE1070DBD3B2E31F06E /* Pods_FriendieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */; };
+		95F2EA5BAE87FCFAE9E04454 /* Pods_Friendie_FriendieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */; };
+		E738DA43C7AAF1F7D733BFB1 /* Pods_Friendie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		144E125B27FE843A00A0F82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144E123C27FE843800A0F82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144E124327FE843900A0F82D;
+			remoteInfo = Friendie;
+		};
+		144E126527FE843A00A0F82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 144E123C27FE843800A0F82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144E124327FE843900A0F82D;
+			remoteInfo = Friendie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		144E124427FE843900A0F82D /* Friendie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		144E124727FE843900A0F82D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		144E124927FE843900A0F82D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		144E124E27FE843900A0F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		144E125027FE843A00A0F82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		144E125327FE843A00A0F82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		144E125527FE843A00A0F82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		144E125A27FE843A00A0F82D /* FriendieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		144E125E27FE843A00A0F82D /* FriendieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendieTests.swift; sourceTree = "<group>"; };
+		144E126427FE843A00A0F82D /* FriendieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		144E126827FE843A00A0F82D /* FriendieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendieUITests.swift; sourceTree = "<group>"; };
+		144E126A27FE843A00A0F82D /* FriendieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		144E127727FE982A00A0F82D /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		144E127927FE985000A0F82D /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		144E127B27FE9A5700A0F82D /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		295DFF319AECF314EBD06A49 /* Pods-Friendie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.release.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.release.xcconfig"; sourceTree = "<group>"; };
+		330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.debug.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.release.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.release.xcconfig"; sourceTree = "<group>"; };
+		89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B831EAA6A26A1830594722 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA5EED3D4B91BAA4D92C1DA /* Pods-Friendie-FriendieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.release.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie_FriendieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		144E124127FE843900A0F82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E738DA43C7AAF1F7D733BFB1 /* Pods_Friendie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144E125727FE843A00A0F82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65804DE1070DBD3B2E31F06E /* Pods_FriendieTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144E126127FE843A00A0F82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F2EA5BAE87FCFAE9E04454 /* Pods_Friendie_FriendieUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		144E123B27FE843800A0F82D = {
+			isa = PBXGroup;
+			children = (
+				144E124627FE843900A0F82D /* Friendie */,
+				144E125D27FE843A00A0F82D /* FriendieTests */,
+				144E126727FE843A00A0F82D /* FriendieUITests */,
+				144E124527FE843900A0F82D /* Products */,
+				3DD063A2DD714D5D3F3A089C /* Pods */,
+				C35DB8ED19B5DEE4C779272D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		144E124527FE843900A0F82D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				144E124427FE843900A0F82D /* Friendie.app */,
+				144E125A27FE843A00A0F82D /* FriendieTests.xctest */,
+				144E126427FE843A00A0F82D /* FriendieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		144E124627FE843900A0F82D /* Friendie */ = {
+			isa = PBXGroup;
+			children = (
+				144E124727FE843900A0F82D /* AppDelegate.swift */,
+				144E124927FE843900A0F82D /* SceneDelegate.swift */,
+				144E124D27FE843900A0F82D /* Main.storyboard */,
+				144E125027FE843A00A0F82D /* Assets.xcassets */,
+				144E125227FE843A00A0F82D /* LaunchScreen.storyboard */,
+				144E125527FE843A00A0F82D /* Info.plist */,
+				144E127727FE982A00A0F82D /* loginViewController.swift */,
+				144E127927FE985000A0F82D /* feedViewController.swift */,
+				144E127B27FE9A5700A0F82D /* signUpViewController.swift */,
+			);
+			path = Friendie;
+			sourceTree = "<group>";
+		};
+		144E125D27FE843A00A0F82D /* FriendieTests */ = {
+			isa = PBXGroup;
+			children = (
+				144E125E27FE843A00A0F82D /* FriendieTests.swift */,
+			);
+			path = FriendieTests;
+			sourceTree = "<group>";
+		};
+		144E126727FE843A00A0F82D /* FriendieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				144E126827FE843A00A0F82D /* FriendieUITests.swift */,
+				144E126A27FE843A00A0F82D /* FriendieUITestsLaunchTests.swift */,
+			);
+			path = FriendieUITests;
+			sourceTree = "<group>";
+		};
+		3DD063A2DD714D5D3F3A089C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7B831EAA6A26A1830594722 /* Pods-Friendie.debug.xcconfig */,
+				295DFF319AECF314EBD06A49 /* Pods-Friendie.release.xcconfig */,
+				89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */,
+				DCA5EED3D4B91BAA4D92C1DA /* Pods-Friendie-FriendieUITests.release.xcconfig */,
+				40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */,
+				46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C35DB8ED19B5DEE4C779272D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */,
+				E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */,
+				E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		144E124327FE843900A0F82D /* Friendie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144E126E27FE843A00A0F82D /* Build configuration list for PBXNativeTarget "Friendie" */;
+			buildPhases = (
+				E5BE3664F029C689FC3C1628 /* [CP] Check Pods Manifest.lock */,
+				144E124027FE843900A0F82D /* Sources */,
+				144E124127FE843900A0F82D /* Frameworks */,
+				144E124227FE843900A0F82D /* Resources */,
+				03D50B15339F69B0CB606F42 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Friendie;
+			productName = Friendie;
+			productReference = 144E124427FE843900A0F82D /* Friendie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		144E125927FE843A00A0F82D /* FriendieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144E127127FE843A00A0F82D /* Build configuration list for PBXNativeTarget "FriendieTests" */;
+			buildPhases = (
+				8EBA913E173D6BD5ECA4C675 /* [CP] Check Pods Manifest.lock */,
+				144E125627FE843A00A0F82D /* Sources */,
+				144E125727FE843A00A0F82D /* Frameworks */,
+				144E125827FE843A00A0F82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144E125C27FE843A00A0F82D /* PBXTargetDependency */,
+			);
+			name = FriendieTests;
+			productName = FriendieTests;
+			productReference = 144E125A27FE843A00A0F82D /* FriendieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		144E126327FE843A00A0F82D /* FriendieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 144E127427FE843A00A0F82D /* Build configuration list for PBXNativeTarget "FriendieUITests" */;
+			buildPhases = (
+				D798F7EA0D445B86AE215A76 /* [CP] Check Pods Manifest.lock */,
+				144E126027FE843A00A0F82D /* Sources */,
+				144E126127FE843A00A0F82D /* Frameworks */,
+				144E126227FE843A00A0F82D /* Resources */,
+				93F25CD0A516A76A25971656 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144E126627FE843A00A0F82D /* PBXTargetDependency */,
+			);
+			name = FriendieUITests;
+			productName = FriendieUITests;
+			productReference = 144E126427FE843A00A0F82D /* FriendieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		144E123C27FE843800A0F82D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					144E124327FE843900A0F82D = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					144E125927FE843A00A0F82D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 144E124327FE843900A0F82D;
+					};
+					144E126327FE843A00A0F82D = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 144E124327FE843900A0F82D;
+					};
+				};
+			};
+			buildConfigurationList = 144E123F27FE843800A0F82D /* Build configuration list for PBXProject "Friendie" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 144E123B27FE843800A0F82D;
+			productRefGroup = 144E124527FE843900A0F82D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				144E124327FE843900A0F82D /* Friendie */,
+				144E125927FE843A00A0F82D /* FriendieTests */,
+				144E126327FE843A00A0F82D /* FriendieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		144E124227FE843900A0F82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144E125427FE843A00A0F82D /* LaunchScreen.storyboard in Resources */,
+				144E125127FE843A00A0F82D /* Assets.xcassets in Resources */,
+				144E124F27FE843900A0F82D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144E125827FE843A00A0F82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144E126227FE843A00A0F82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03D50B15339F69B0CB606F42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Friendie/Pods-Friendie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Friendie/Pods-Friendie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Friendie/Pods-Friendie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EBA913E173D6BD5ECA4C675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendieTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93F25CD0A516A76A25971656 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D798F7EA0D445B86AE215A76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Friendie-FriendieUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5BE3664F029C689FC3C1628 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Friendie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		144E124027FE843900A0F82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */,
+				144E124827FE843900A0F82D /* AppDelegate.swift in Sources */,
+				144E124A27FE843900A0F82D /* SceneDelegate.swift in Sources */,
+				144E127A27FE985000A0F82D /* feedViewController.swift in Sources */,
+				144E127827FE982A00A0F82D /* loginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144E125627FE843A00A0F82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144E125F27FE843A00A0F82D /* FriendieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		144E126027FE843A00A0F82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				144E126B27FE843A00A0F82D /* FriendieUITestsLaunchTests.swift in Sources */,
+				144E126927FE843A00A0F82D /* FriendieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		144E125C27FE843A00A0F82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144E124327FE843900A0F82D /* Friendie */;
+			targetProxy = 144E125B27FE843A00A0F82D /* PBXContainerItemProxy */;
+		};
+		144E126627FE843A00A0F82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 144E124327FE843900A0F82D /* Friendie */;
+			targetProxy = 144E126527FE843A00A0F82D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		144E124D27FE843900A0F82D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				144E124E27FE843900A0F82D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		144E125227FE843A00A0F82D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				144E125327FE843A00A0F82D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		144E126C27FE843A00A0F82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		144E126D27FE843A00A0F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		144E126F27FE843A00A0F82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7B831EAA6A26A1830594722 /* Pods-Friendie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H79W7W6F6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Friendie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Friendie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		144E127027FE843A00A0F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295DFF319AECF314EBD06A49 /* Pods-Friendie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H79W7W6F6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Friendie/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Friendie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		144E127227FE843A00A0F82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H79W7W6F6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FriendieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friendie.app/Friendie";
+			};
+			name = Debug;
+		};
+		144E127327FE843A00A0F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H79W7W6F6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FriendieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friendie.app/Friendie";
+			};
+			name = Release;
+		};
+		144E127527FE843A00A0F82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H79W7W6F6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FriendieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Friendie;
+			};
+			name = Debug;
+		};
+		144E127627FE843A00A0F82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA5EED3D4B91BAA4D92C1DA /* Pods-Friendie-FriendieUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H79W7W6F6J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.FriendieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Friendie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		144E123F27FE843800A0F82D /* Build configuration list for PBXProject "Friendie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144E126C27FE843A00A0F82D /* Debug */,
+				144E126D27FE843A00A0F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144E126E27FE843A00A0F82D /* Build configuration list for PBXNativeTarget "Friendie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144E126F27FE843A00A0F82D /* Debug */,
+				144E127027FE843A00A0F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144E127127FE843A00A0F82D /* Build configuration list for PBXNativeTarget "FriendieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144E127227FE843A00A0F82D /* Debug */,
+				144E127327FE843A00A0F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		144E127427FE843A00A0F82D /* Build configuration list for PBXNativeTarget "FriendieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				144E127527FE843A00A0F82D /* Debug */,
+				144E127627FE843A00A0F82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 144E123C27FE843800A0F82D /* Project object */;
+}
