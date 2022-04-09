@@ -25,7 +25,7 @@ class loginViewController: UIViewController {
         PFUser.logInWithUsername(inBackground: username, password: password) {
           (user, error) in
           if user != nil {
-              self.performSegue(withIdentifier: "signUpSegue", sender: nil)
+              self.performSegue(withIdentifier: "feedViewController", sender: nil)
           } else {
               print("Error: \(error?.localizedDescription)")
         }
