@@ -23,7 +23,7 @@ class CreateGroupViewController: UIViewController, UIImagePickerControllerDelega
     }
     
     @IBAction func onCreateGroup(_ sender: Any) {
-        let name = groupName?.text!
+        let name = groupName?.text as? String
         let imageData = imageView.image!.pngData()
         let file = PFFileObject(name: "image.png", data: imageData!)
         

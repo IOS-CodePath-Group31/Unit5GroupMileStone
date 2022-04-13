@@ -18,6 +18,7 @@
 		144E127827FE982A00A0F82D /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127727FE982A00A0F82D /* loginViewController.swift */; };
 		144E127A27FE985000A0F82D /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127927FE985000A0F82D /* feedViewController.swift */; };
 		144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127B27FE9A5700A0F82D /* signUpViewController.swift */; };
+		64008AC328075F8300C3EDFD /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64008AC228075F8300C3EDFD /* GroupDetailViewController.swift */; };
 		643786B52801FD1100028409 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643786B42801FD1000028409 /* GroupTableViewCell.swift */; };
 		643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643786B6280205A700028409 /* CreateGroupViewController.swift */; };
 		65804DE1070DBD3B2E31F06E /* Pods_FriendieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */; };
@@ -62,6 +63,7 @@
 		330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.debug.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.release.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.release.xcconfig"; sourceTree = "<group>"; };
+		64008AC228075F8300C3EDFD /* GroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
 		643786B42801FD1000028409 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		643786B6280205A700028409 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
 		89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				144E124727FE843900A0F82D /* AppDelegate.swift */,
 				144E124927FE843900A0F82D /* SceneDelegate.swift */,
 				144E124D27FE843900A0F82D /* Main.storyboard */,
+				64008AC228075F8300C3EDFD /* GroupDetailViewController.swift */,
 				144E125027FE843A00A0F82D /* Assets.xcassets */,
 				144E125227FE843A00A0F82D /* LaunchScreen.storyboard */,
 				144E125527FE843A00A0F82D /* Info.plist */,
@@ -419,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */,
+				64008AC328075F8300C3EDFD /* GroupDetailViewController.swift in Sources */,
 				643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */,
 				144E124827FE843900A0F82D /* AppDelegate.swift in Sources */,
 				144E124A27FE843900A0F82D /* SceneDelegate.swift in Sources */,
