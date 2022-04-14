@@ -26,6 +26,7 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
        delegate.window?.rootViewController = loginViewController
        
        self.dismiss(animated: true, completion: nil)
+        UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     
     override func viewDidLoad() {
