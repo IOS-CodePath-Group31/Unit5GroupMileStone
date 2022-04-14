@@ -22,12 +22,10 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
        
        guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
        
-       let delegate = windowScene.delegate as? SceneDelegate else { return }
+               let delegate = windowScene.delegate as? SceneDelegate else { return }
        delegate.window?.rootViewController = loginViewController
        
        self.dismiss(animated: true, completion: nil)
-        
-        UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     
     override func viewDidLoad() {

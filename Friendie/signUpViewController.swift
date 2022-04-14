@@ -18,16 +18,11 @@ class signUpViewController: UIViewController {
     
     @IBAction func onSignUp(_ sender: Any) {
         
-        
-        
-        
           let user = PFUser()
         user.username = signUpUsernameField.text
         user.password = signUpPasswordField.text
         user.signUpInBackground { (success, error) in
             if success {
-                
-                UserDefaults.standard.set(true, forKey: "userLoggedIn")
                 self.performSegue(withIdentifier: "signUpSegue", sender: nil)
             }else {
                 print("Error: \(error?.localizedDescription)")
@@ -49,12 +44,6 @@ class signUpViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        if UserDefaults.standard.bool(forKey: "userLoggedIn") == true {
-        self.performSegue(withIdentifier: "signUpSegue", sender: self)
-        }
-    }
-
 
     /*
     // MARK: - Navigation

@@ -18,19 +18,18 @@ class loginViewController: UIViewController {
     
     @IBAction func onLogin(_ sender: Any) {
         
+       
         let username = loginUsernameField.text!
         let password = loginPasswordField.text!
         
         PFUser.logInWithUsername(inBackground: username, password: password) {
           (user, error) in
           if user != nil {
-              UserDefaults.standard.set(true, forKey: "userLoggedIn")
+
               self.performSegue(withIdentifier: "feedViewController", sender: nil)
           } else {
               print("Error: \(error?.localizedDescription)")
         }
-            
-            
         
         }
     }
@@ -40,12 +39,6 @@ class loginViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
-    
-        override func viewDidAppear(_ animated: Bool) {
-        if UserDefaults.standard.bool(forKey: "userLoggedIn") == true {
-            self.performSegue(withIdentifier: "feedViewController", sender: self)
-       }
     }
 
 }
