@@ -26,6 +26,7 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
        delegate.window?.rootViewController = loginViewController
        
        self.dismiss(animated: true, completion: nil)
+        UserDefaults.standard.set(false, forKey: "userLoggedIn")
     }
     
     override func viewDidLoad() {
@@ -42,9 +43,9 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
     func loadGroups() {
         let query = PFQuery(className: "Groups")
         query.includeKey("author")
-        query.limit = 5
+        query.limit = 20
         self.groups.removeAll()
-        
+        query.order(byDescending: "createdAt")
         query.findObjectsInBackground { (groups, error) in
             if groups != nil {
                 self.groups = groups!
