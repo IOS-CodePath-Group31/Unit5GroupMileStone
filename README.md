@@ -32,14 +32,20 @@ Friendie is a social networking application for your friends or family. You can 
 
 **Required Must-have Stories**
 
-- [x] Users can create an account and login. 
+- [x] Styled launch screen
+- [ ] app logo
+- [x] Users can create an account and login.
+- [x] User stays logged in across app restarts
 - [x] User can logout.
+- [x] Tab bar the helps navigate between feed and profile screen.
 - [ ] Users can view and edit their profile info.
-- [x] User can Create groups.
-- [ ] Users can add people to groups.
+- [x] Users can create groups.
+- [ ] The creater of the group can add people to their group.
+- [ ] Members of a group can add posts to the group.
 - [ ] Users can view all the groups they are in.
-- [ ] Users can click on a group and look at the all members of that group.
-- [ ] Users can click on a group and view all the things shared in that group.
+- [x] Users can click on a group and get detailed view of the group.
+- [ ] Users can click on a group and view all members of that group.
+- [ ] Users can click on a group and view all the posts shared in that group.
 
 **Optional Nice-to-have Stories**
 
