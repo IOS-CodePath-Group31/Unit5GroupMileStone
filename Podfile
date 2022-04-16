@@ -7,8 +7,8 @@ target 'Friendie' do
 
   # Pods for Friendie
 	
-	pod "Parse"
-	pod "AlamofireImage"
+   pod "Parse"
+   pod "AlamofireImage"
 
   target 'FriendieTests' do
     inherit! :search_paths

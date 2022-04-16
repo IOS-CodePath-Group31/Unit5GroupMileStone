@@ -36,16 +36,14 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
         groupTableView.dataSource = self
         // Do any additional setup after loading the view.
         loadGroups()
-        print("Hello world!")
-        print("Logged in user: \(PFUser.current()?.username)")
     }
     
     func loadGroups() {
         let query = PFQuery(className: "Groups")
         query.includeKey("author")
-        query.limit = 5
+        query.limit = 20
         self.groups.removeAll()
-        
+        query.order(byDescending: "createdAt")
         query.findObjectsInBackground { (groups, error) in
             if groups != nil {
                 self.groups = groups!
@@ -59,9 +57,6 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print("Groups")
-        print(self.groups)
-        print("+++++++")
         return self.groups.count
     }
     
@@ -89,7 +84,7 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         let indexPath = groupTableView.indexPath(for: cell)!
         let group = self.groups[indexPath.row]
-        print("Group: \(group)")
+        
         // pass the selected group to the group details view controller
         let detailsViewController = segue.destination as! GroupDetailViewController
         detailsViewController.group = group
