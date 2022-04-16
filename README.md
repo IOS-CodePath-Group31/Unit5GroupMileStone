@@ -40,7 +40,7 @@ Friendie is a social networking application for your friends or family. You can 
 - [x] Tab bar the helps navigate between feed and profile screen.
 - [ ] Users can view and edit their profile info.
 - [x] Users can create groups.
-- [ ] The creater of the group can add people to their group.
+- [ ] The creator of the group can add people to their group.
 - [ ] Members of a group can add posts to the group.
 - [ ] Users can view all the groups they are in.
 - [x] Users can click on a group and get detailed view of the group.
@@ -54,6 +54,10 @@ Friendie is a social networking application for your friends or family. You can 
 
 <img src="http://g.recordit.co/f9rraiIFtT.gif" width=250><br>
 <img src="http://g.recordit.co/XWRx3Ol1O7.gif" width=250><br>
+<img src="http://g.recordit.co/9Py8P5D3Pf.gif" width=250><br>
+<img src="http://g.recordit.co/3MIl03MJ2E.gif" width=250><br>
+<img src="http://g.recordit.co/GwLX575P0l.gif" width=250><br>
+<img src="http://g.recordit.co/QXjMZoBbOF.gif" width=250><br>
 
 ### 2. Screen Archetypes
 
