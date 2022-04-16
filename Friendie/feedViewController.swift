@@ -31,11 +31,13 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Current logged in user: \(PFUser.current()?.username)")
         
         groupTableView.delegate = self
         groupTableView.dataSource = self
         // Do any additional setup after loading the view.
         loadGroups()
+        
     }
     
     func loadGroups() {
@@ -49,7 +51,6 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
                 self.groups = groups!
                 self.groupTableView.reloadData()
                 print("Groups fetched successfully!")
-                print(self.groups)
             } else {
                 print("Failed fetching groups Data!")
             }

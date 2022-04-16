@@ -32,17 +32,22 @@ class GroupDetailViewController: UIViewController {
         groupName?.text = name
         groupCreator?.text = author
         imageView.af.setImage(withURL: url)
+        
+        let groupauthor = group["author"] as? PFUser
+        if groupauthor?.objectId != PFUser.current()?.objectId {
+            print("You are not the author of the group!")
+            navigationItem.rightBarButtonItem?.isEnabled = false
+            navigationItem.rightBarButtonItem?.customView?.isHidden = true
+        }
+        
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        
+        // pass the selected group to the group details view controller
+        let AddPeopleViewController = segue.destination as! AddPeopleViewController
+        AddPeopleViewController.currentGroup = self.group
     }
-    */
 
 }

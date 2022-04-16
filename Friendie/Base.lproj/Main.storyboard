@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pkz-XG-rYj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pkz-XG-rYj">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -389,6 +389,9 @@
                     <navigationItem key="navigationItem" id="Pw2-As-zoe">
                         <barButtonItem key="rightBarButtonItem" image="person.fill.badge.plus" catalog="system" id="HLF-Yo-xe1">
                             <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <segue destination="VFE-s2-XRe" kind="presentation" id="ADH-Xw-Ald"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
@@ -400,6 +403,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ebZ-xD-0vU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2594.202898550725" y="2376.5625"/>
+        </scene>
+        <!--Add People View Controller-->
+        <scene sceneID="eks-EH-Ib2">
+            <objects>
+                <viewController id="VFE-s2-XRe" customClass="AddPeopleViewController" customModule="Friendie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m55-WU-8lm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter username of the person you want to add." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5NU-fW-jmm">
+                                <rect key="frame" x="8" y="40" width="398" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CR8-Ph-hES">
+                                <rect key="frame" x="173.5" y="86" width="67" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="addPeopleToGroup:" destination="VFE-s2-XRe" eventType="touchUpInside" id="5H4-rI-Q4F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0hn-7v-cFl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="5NU-fW-jmm" firstAttribute="centerX" secondItem="m55-WU-8lm" secondAttribute="centerX" id="FAc-B0-3tw"/>
+                            <constraint firstItem="CR8-Ph-hES" firstAttribute="top" secondItem="5NU-fW-jmm" secondAttribute="bottom" constant="12" id="KpM-4G-WZl"/>
+                            <constraint firstItem="5NU-fW-jmm" firstAttribute="leading" secondItem="0hn-7v-cFl" secondAttribute="leading" constant="8" id="SAI-Ye-qXL"/>
+                            <constraint firstItem="CR8-Ph-hES" firstAttribute="centerX" secondItem="m55-WU-8lm" secondAttribute="centerX" id="h1e-Ci-6JV"/>
+                            <constraint firstItem="0hn-7v-cFl" firstAttribute="trailing" secondItem="5NU-fW-jmm" secondAttribute="trailing" constant="8" id="v9R-Re-3rH"/>
+                            <constraint firstItem="5NU-fW-jmm" firstAttribute="top" secondItem="0hn-7v-cFl" secondAttribute="top" constant="40" id="wmv-JG-pAq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addPeopleTextField" destination="5NU-fW-jmm" id="i1f-rW-Qdo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1LK-GQ-11e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3429" y="2377"/>
         </scene>
         <!--Groups-->
         <scene sceneID="LGu-Gi-wYg">
