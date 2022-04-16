@@ -23,7 +23,7 @@
 		643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643786B6280205A700028409 /* CreateGroupViewController.swift */; };
 		65804DE1070DBD3B2E31F06E /* Pods_FriendieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */; };
 		95F2EA5BAE87FCFAE9E04454 /* Pods_Friendie_FriendieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */; };
-		DB98B7DD2809E8AB00128A10 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB98B7DC2809E8AB00128A10 /* profileViewController.swift */; };
+		DBFFFB6C280B381C001DB3C4 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFFFB6B280B381C001DB3C4 /* profileViewController.swift */; };
 		E738DA43C7AAF1F7D733BFB1 /* Pods_Friendie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,7 +69,7 @@
 		643786B6280205A700028409 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
 		89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7B831EAA6A26A1830594722 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
-		DB98B7DC2809E8AB00128A10 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = profileViewController.swift; path = ../../profileViewController.swift; sourceTree = "<group>"; };
+		DBFFFB6B280B381C001DB3C4 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		DCA5EED3D4B91BAA4D92C1DA /* Pods-Friendie-FriendieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.release.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie_FriendieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,7 +140,7 @@
 				144E127B27FE9A5700A0F82D /* signUpViewController.swift */,
 				643786B42801FD1000028409 /* GroupTableViewCell.swift */,
 				643786B6280205A700028409 /* CreateGroupViewController.swift */,
-				DB98B7DC2809E8AB00128A10 /* profileViewController.swift */,
+				DBFFFB6B280B381C001DB3C4 /* profileViewController.swift */,
 			);
 			path = Friendie;
 			sourceTree = "<group>";
@@ -426,7 +426,7 @@
 			files = (
 				144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */,
 				64008AC328075F8300C3EDFD /* GroupDetailViewController.swift in Sources */,
-				DB98B7DD2809E8AB00128A10 /* profileViewController.swift in Sources */,
+				DBFFFB6C280B381C001DB3C4 /* profileViewController.swift in Sources */,
 				643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */,
 				144E124827FE843900A0F82D /* AppDelegate.swift in Sources */,
 				144E124A27FE843900A0F82D /* SceneDelegate.swift in Sources */,
