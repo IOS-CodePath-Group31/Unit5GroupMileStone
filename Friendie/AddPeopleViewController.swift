@@ -15,9 +15,6 @@ class AddPeopleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.)
-        print("Current Group: \(currentGroup)")
     }
     
     
@@ -29,22 +26,27 @@ class AddPeopleViewController: UIViewController {
             return
         }
         let personUsername = addPeopleTextField.text!
-        print("Username entered: \(personUsername)")
         let query = PFUser.query()
         query?.whereKey("username", equalTo:personUsername)
         
-        query?.findObjectsInBackground { (PFUser, error) in
-            if (PFUser != nil) {
-                self.currentGroup.add(PFUser, forKey: "members")
-                print("Added person to Group: \(PFUser)")
-            }
-            else {
-                print("Failed fetching user.")
+        if personUsername != "" {
+            print("Username entered: \(personUsername)")
+            query?.findObjectsInBackground { (PFUser, error) in
+                if (PFUser != nil) {
+                    self.currentGroup.add(PFUser!, forKey: "members")
+                    print("Added person to Group: \(String(describing: PFUser))")
+                }
+                else {
+                    print("Failed fetching user.")
+                }
+                
             }
             
+            self.dismiss(animated: true, completion: nil)
         }
-        
-        self.dismiss(animated: true, completion: nil)
+        else {
+            print("This field cannot be empty!")
+        }
     }
     
 

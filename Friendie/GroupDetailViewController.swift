@@ -35,7 +35,6 @@ class GroupDetailViewController: UIViewController {
         
         let groupauthor = group["author"] as? PFUser
         if groupauthor?.objectId != PFUser.current()?.objectId {
-            print("You are not the author of the group!")
             navigationItem.rightBarButtonItem?.isEnabled = false
             navigationItem.rightBarButtonItem?.customView?.isHidden = true
         }

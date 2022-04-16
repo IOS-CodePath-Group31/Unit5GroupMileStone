@@ -75,6 +75,7 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
         cell.groupNameLabel?.text = name
         cell.createdByLabel?.text = author.username
         cell.groupImageView.af.setImage(withURL: url)
+       
         
         return cell
     }
