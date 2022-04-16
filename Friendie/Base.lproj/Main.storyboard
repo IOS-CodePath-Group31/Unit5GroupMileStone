@@ -163,7 +163,7 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="ocj-7U-D9O" customClass="feedViewController" customModule="Friendie" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="gmF-ld-J6f">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
@@ -227,7 +227,7 @@
                     <navigationItem key="navigationItem" id="uHy-GQ-zZ5">
                         <barButtonItem key="leftBarButtonItem" style="plain" id="bVL-oi-euD">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="Scu-8l-mAC">
-                                <rect key="frame" x="20" y="3" width="92" height="38"/>
+                                <rect key="frame" x="20" y="9" width="92" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Logout">
@@ -261,11 +261,11 @@
             <objects>
                 <viewController id="Pbw-VC-iac" customClass="CreateGroupViewController" customModule="Friendie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9LR-Bu-JT5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder_image" translatesAutoresizingMaskIntoConstraints="NO" id="iPa-o7-QEy">
-                                <rect key="frame" x="8" y="96" width="398" height="150"/>
+                                <rect key="frame" x="8" y="64" width="398" height="150"/>
                                 <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="oBf-Dd-cQX"/>
@@ -275,12 +275,12 @@
                                 </connections>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Group Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UJv-wM-y6e">
-                                <rect key="frame" x="8" y="254" width="398" height="34"/>
+                                <rect key="frame" x="8" y="222" width="398" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W7x-SV-OPj">
-                                <rect key="frame" x="151.5" y="296" width="111" height="31"/>
+                                <rect key="frame" x="151.5" y="264" width="111" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Create Group"/>
                                 <connections>
@@ -321,35 +321,35 @@
             <objects>
                 <viewController id="96j-hx-YTc" customClass="GroupDetailViewController" customModule="Friendie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="awr-R2-R4w">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Rxb-YA-16S">
-                                <rect key="frame" x="8" y="88" width="398" height="150"/>
+                                <rect key="frame" x="8" y="56" width="398" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="UsI-HJ-ZsS"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GroupName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P56-AJ-bnF">
-                                <rect key="frame" x="8" y="246" width="398" height="25.5"/>
+                                <rect key="frame" x="8" y="214" width="398" height="25.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GroupName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJb-e4-GwK">
-                                <rect key="frame" x="82" y="275.5" width="68" height="14.5"/>
+                                <rect key="frame" x="82" y="243.5" width="68" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Created by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KlE-j7-2hp">
-                                <rect key="frame" x="16" y="275.5" width="62" height="14.5"/>
+                                <rect key="frame" x="16" y="243.5" width="62" height="14.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDs-8c-b1G">
-                                <rect key="frame" x="351" y="235" width="55" height="55"/>
+                                <rect key="frame" x="351" y="203" width="55" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="Fi3-C4-OMW"/>
                                     <constraint firstAttribute="width" constant="55" id="vwR-Cw-aYn"/>
@@ -359,7 +359,7 @@
                                 </buttonConfiguration>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3u5-n4-Mil">
-                                <rect key="frame" x="8" y="298" width="398" height="32"/>
+                                <rect key="frame" x="8" y="266" width="398" height="32"/>
                                 <segments>
                                     <segment title="Posts"/>
                                     <segment title="Members"/>
@@ -461,20 +461,31 @@
             </objects>
             <point key="canvasLocation" x="1782.608695652174" y="93.75"/>
         </scene>
-        <!--Profile-->
+        <!--profileViewController-->
         <scene sceneID="XrR-Mc-B23">
             <objects>
-                <viewController id="J42-Lg-4r0" sceneMemberID="viewController">
+                <viewController title="profileViewController" id="J42-Lg-4r0" customClass="profileViewController" customModule="Friendie" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="DeY-GR-A6O">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lk-f1-Ovs">
-                                <rect key="frame" x="162" y="410.5" width="90" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Lk-f1-Ovs">
+                                <rect key="frame" x="207" y="421" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Profile" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7vO-lu-zNZ">
+                                <rect key="frame" x="176" y="10" width="63" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="profile_tab" translatesAutoresizingMaskIntoConstraints="NO" id="cgI-az-zMd">
+                                <rect key="frame" x="87" y="94" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0vb-9Z-YmO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -484,14 +495,17 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Profile" image="profile_tab" id="ZdS-nV-gfS"/>
+                    <connections>
+                        <outlet property="profileImage" destination="cgI-az-zMd" id="B8E-zj-Jpj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MU2-Nd-FiJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1251" y="879"/>
+            <point key="canvasLocation" x="1267" y="879"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7A2-Vf-HFL"/>
+        <segue reference="wIl-bu-pmx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="2993736_social media_slideshare_icon (2)" width="128" height="128"/>
