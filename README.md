@@ -38,11 +38,11 @@ Friendie is a social networking application for your friends or family. You can 
 - [x] User stays logged in across app restarts
 - [x] User can logout.
 - [x] Tab bar the helps navigate between feed and profile screen.
-- [ ] Users can view and edit their profile info.
+- [x] Users can view and edit their profile info.
 - [x] Users can create groups.
-- [ ] The creator of the group can add people to their group.
+- [x] The creator of the group can add people to their group.
 - [ ] Members of a group can add posts to the group.
-- [ ] Users can view all the groups they are in.
+- [x] Users can view all the groups in the feed.
 - [x] Users can click on a group and get detailed view of the group.
 - [ ] Users can click on a group and view all members of that group.
 - [ ] Users can click on a group and view all the posts shared in that group.
