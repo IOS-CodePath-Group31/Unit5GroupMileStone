@@ -24,6 +24,7 @@
 		64BCB5AB280B444E0038C908 /* AddPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCB5AA280B444E0038C908 /* AddPeopleViewController.swift */; };
 		65804DE1070DBD3B2E31F06E /* Pods_FriendieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E377264E0375E64F7CC9C9AB /* Pods_FriendieTests.framework */; };
 		95F2EA5BAE87FCFAE9E04454 /* Pods_Friendie_FriendieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */; };
+		DB1AF4A6280BBD2200527D9A /* ProfileUploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1AF4A5280BBD2200527D9A /* ProfileUploadViewController.swift */; };
 		DBFFFB6C280B381C001DB3C4 /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFFFB6B280B381C001DB3C4 /* profileViewController.swift */; };
 		E738DA43C7AAF1F7D733BFB1 /* Pods_Friendie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330D0572BDD50DDA2B402C61 /* Pods_Friendie.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		64BCB5AA280B444E0038C908 /* AddPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleViewController.swift; sourceTree = "<group>"; };
 		89E719602FA14427317158D7 /* Pods-Friendie-FriendieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.debug.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7B831EAA6A26A1830594722 /* Pods-Friendie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie.debug.xcconfig"; path = "Target Support Files/Pods-Friendie/Pods-Friendie.debug.xcconfig"; sourceTree = "<group>"; };
+		DB1AF4A5280BBD2200527D9A /* ProfileUploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUploadViewController.swift; sourceTree = "<group>"; };
 		DBFFFB6B280B381C001DB3C4 /* profileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
 		DCA5EED3D4B91BAA4D92C1DA /* Pods-Friendie-FriendieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendie-FriendieUITests.release.xcconfig"; path = "Target Support Files/Pods-Friendie-FriendieUITests/Pods-Friendie-FriendieUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E2B6593921F8993731BD4D51 /* Pods_Friendie_FriendieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendie_FriendieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +146,7 @@
 				643786B6280205A700028409 /* CreateGroupViewController.swift */,
 				DBFFFB6B280B381C001DB3C4 /* profileViewController.swift */,
 				64BCB5AA280B444E0038C908 /* AddPeopleViewController.swift */,
+				DB1AF4A5280BBD2200527D9A /* ProfileUploadViewController.swift */,
 			);
 			path = Friendie;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				144E124827FE843900A0F82D /* AppDelegate.swift in Sources */,
 				64BCB5AB280B444E0038C908 /* AddPeopleViewController.swift in Sources */,
 				144E124A27FE843900A0F82D /* SceneDelegate.swift in Sources */,
+				DB1AF4A6280BBD2200527D9A /* ProfileUploadViewController.swift in Sources */,
 				643786B52801FD1100028409 /* GroupTableViewCell.swift in Sources */,
 				144E127A27FE985000A0F82D /* feedViewController.swift in Sources */,
 				144E127827FE982A00A0F82D /* loginViewController.swift in Sources */,
