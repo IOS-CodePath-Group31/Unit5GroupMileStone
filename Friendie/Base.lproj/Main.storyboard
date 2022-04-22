@@ -364,6 +364,9 @@
                                     <segment title="Posts"/>
                                     <segment title="Members"/>
                                 </segments>
+                                <connections>
+                                    <action selector="segmentedControl:" destination="96j-hx-YTc" eventType="valueChanged" id="5V1-9X-Yhh"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="WBi-E9-Kz1"/>
