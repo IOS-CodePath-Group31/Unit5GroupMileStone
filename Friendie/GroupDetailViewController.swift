@@ -17,6 +17,8 @@ class GroupDetailViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,6 +39,21 @@ class GroupDetailViewController: UIViewController {
         if groupauthor?.objectId != PFUser.current()?.objectId {
             navigationItem.rightBarButtonItem?.isEnabled = false
             navigationItem.rightBarButtonItem?.customView?.isHidden = true
+        }
+        
+    }
+    
+    
+    
+ 
+    @IBAction func segmentedControl(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            print("Posts selected")
+        case 1:
+            print("Members selected")
+        default:
+            print("Default case")
         }
         
     }
