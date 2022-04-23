@@ -37,7 +37,7 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
         groupTableView.dataSource = self
         // Do any additional setup after loading the view.
         loadGroups()
-        
+      
     }
     
     func loadGroups() {
@@ -55,9 +55,12 @@ class feedViewController: UIViewController, UITableViewDelegate, UITableViewData
                 print("Failed fetching groups Data!")
             }
         }
+        
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        print("GROUPS::: \(self.groups)")
         return self.groups.count
     }
     

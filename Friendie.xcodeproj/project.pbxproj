@@ -19,6 +19,7 @@
 		144E127A27FE985000A0F82D /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127927FE985000A0F82D /* feedViewController.swift */; };
 		144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144E127B27FE9A5700A0F82D /* signUpViewController.swift */; };
 		64008AC328075F8300C3EDFD /* GroupDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64008AC228075F8300C3EDFD /* GroupDetailViewController.swift */; };
+		641CB15C28137B68009002CF /* MembersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641CB15B28137B67009002CF /* MembersTableViewCell.swift */; };
 		643786B52801FD1100028409 /* GroupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643786B42801FD1000028409 /* GroupTableViewCell.swift */; };
 		643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643786B6280205A700028409 /* CreateGroupViewController.swift */; };
 		64BCB5AB280B444E0038C908 /* AddPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BCB5AA280B444E0038C908 /* AddPeopleViewController.swift */; };
@@ -67,6 +68,7 @@
 		40293BFCFB8AA73BC684EB2E /* Pods-FriendieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.debug.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46F58C39C0F4AAA057497C5D /* Pods-FriendieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendieTests.release.xcconfig"; path = "Target Support Files/Pods-FriendieTests/Pods-FriendieTests.release.xcconfig"; sourceTree = "<group>"; };
 		64008AC228075F8300C3EDFD /* GroupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupDetailViewController.swift; sourceTree = "<group>"; };
+		641CB15B28137B67009002CF /* MembersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersTableViewCell.swift; sourceTree = "<group>"; };
 		643786B42801FD1000028409 /* GroupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTableViewCell.swift; sourceTree = "<group>"; };
 		643786B6280205A700028409 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
 		64BCB5AA280B444E0038C908 /* AddPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPeopleViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				DBFFFB6B280B381C001DB3C4 /* profileViewController.swift */,
 				64BCB5AA280B444E0038C908 /* AddPeopleViewController.swift */,
 				DB1AF4A5280BBD2200527D9A /* ProfileUploadViewController.swift */,
+				641CB15B28137B67009002CF /* MembersTableViewCell.swift */,
 			);
 			path = Friendie;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				144E127C27FE9A5700A0F82D /* signUpViewController.swift in Sources */,
 				64008AC328075F8300C3EDFD /* GroupDetailViewController.swift in Sources */,
 				DBFFFB6C280B381C001DB3C4 /* profileViewController.swift in Sources */,
+				641CB15C28137B68009002CF /* MembersTableViewCell.swift in Sources */,
 				643786B7280205A700028409 /* CreateGroupViewController.swift in Sources */,
 				144E124827FE843900A0F82D /* AppDelegate.swift in Sources */,
 				64BCB5AB280B444E0038C908 /* AddPeopleViewController.swift in Sources */,

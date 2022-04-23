@@ -33,11 +33,25 @@ class AddPeopleViewController: UIViewController {
             print("Username entered: \(personUsername)")
             query?.findObjectsInBackground { (PFUser, error) in
                 if (PFUser != nil) {
-                    self.currentGroup.add(PFUser!, forKey: "members")
+//                    PFUser["group"] = self.currentGroup
+                    var NewMember = PFObject(className: "newMembers")
+                    NewMember["author"] = PFUser
+                    NewMember["name"] = personUsername
+                    NewMember["group"] = self.currentGroup
+                    self.currentGroup.add(NewMember, forKey: "newMembers")
                     print("Added person to Group: \(String(describing: PFUser))")
+                    self.currentGroup.saveInBackground { (success, error) in
+                        if success {
+                            print("User added sucessfully!")
+                        }
+                        else {
+                            print("Failed to add user.")
+                        }
+                        
+                    }
                 }
                 else {
-                    print("Failed fetching user.")
+                    print("Not a valid user")
                 }
                 
             }
