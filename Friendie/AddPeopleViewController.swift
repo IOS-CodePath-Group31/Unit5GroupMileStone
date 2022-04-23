@@ -35,6 +35,7 @@ class AddPeopleViewController: UIViewController {
                 if (PFUser != nil) {
                     self.currentGroup.add(PFUser!, forKey: "members")
                     print("Added person to Group: \(String(describing: PFUser))")
+                    
                 }
                 else {
                     print("Failed fetching user.")

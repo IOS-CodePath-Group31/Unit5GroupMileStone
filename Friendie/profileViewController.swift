@@ -20,10 +20,10 @@ class profileViewController: UIViewController, UIImagePickerControllerDelegate, 
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        profileImage.layer.borderWidth = 1
+        //profileImage.layer.borderWidth = 1
         profileImage.layer.masksToBounds = false
-        profileImage.layer.borderColor = UIColor.black.cgColor
-        profileImage.layer.cornerRadius = profileImage.frame.height/2
+       // profileImage.layer.borderColor = UIColor.black.cgColor
+       // profileImage.layer.cornerRadius = profileImage.frame.height/2
         profileImage.clipsToBounds = true
         
         let author = PFUser.current()

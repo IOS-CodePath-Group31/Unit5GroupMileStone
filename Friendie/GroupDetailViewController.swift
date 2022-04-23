@@ -8,6 +8,7 @@
 import UIKit
 import Parse
 
+
 class GroupDetailViewController: UIViewController {
     
     var group: PFObject!
@@ -40,8 +41,9 @@ class GroupDetailViewController: UIViewController {
             navigationItem.rightBarButtonItem?.isEnabled = false
             navigationItem.rightBarButtonItem?.customView?.isHidden = true
         }
+        }
         
-    }
+    
     
     
     
@@ -49,6 +51,7 @@ class GroupDetailViewController: UIViewController {
     @IBAction func segmentedControl(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:
+            
             print("Posts selected")
         case 1:
             print("Members selected")
@@ -64,6 +67,7 @@ class GroupDetailViewController: UIViewController {
         // pass the selected group to the group details view controller
         let AddPeopleViewController = segue.destination as! AddPeopleViewController
         AddPeopleViewController.currentGroup = self.group
+        
     }
 
 }
