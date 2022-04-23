@@ -40,6 +40,7 @@ class AddPeopleViewController: UIViewController {
                     NewMember["group"] = self.currentGroup
                     self.currentGroup.add(NewMember, forKey: "newMembers")
                     print("Added person to Group: \(String(describing: PFUser))")
+
                     self.currentGroup.saveInBackground { (success, error) in
                         if success {
                             print("User added sucessfully!")

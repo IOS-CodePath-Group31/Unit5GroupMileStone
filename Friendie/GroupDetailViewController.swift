@@ -9,9 +9,6 @@ import UIKit
 import Parse
 
 class GroupDetailViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    
-    
-    
     var group: PFObject!
     var members: [PFObject]!
     
@@ -54,14 +51,16 @@ class GroupDetailViewController: UIViewController, UITableViewDataSource, UITabl
             navigationItem.rightBarButtonItem?.isEnabled = false
             navigationItem.rightBarButtonItem?.customView?.isHidden = true
         }
+        }
         
-    }
+    
     
     
  
     @IBAction func segmentedControl(_ sender: UISegmentedControl) {
         switch sender.selectedSegmentIndex {
         case 0:
+            
             print("Posts selected")
         case 1:
             print("Members selected")
@@ -77,6 +76,7 @@ class GroupDetailViewController: UIViewController, UITableViewDataSource, UITabl
         // pass the selected group to the group details view controller
         let AddPeopleViewController = segue.destination as! AddPeopleViewController
         AddPeopleViewController.currentGroup = self.group
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
