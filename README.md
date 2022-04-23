@@ -33,7 +33,7 @@ Friendie is a social networking application for your friends or family. You can 
 **Required Must-have Stories**
 
 - [x] Styled launch screen
-- [ ] app logo
+- [x] app logo
 - [x] Users can create an account and login.
 - [x] User stays logged in across app restarts
 - [x] User can logout.
